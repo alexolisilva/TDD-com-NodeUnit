@@ -1,0 +1,46 @@
+﻿(Ativade 1) Triângulo. 
+
+Especifique um conjunto de casos de teste para testar o programa a seguir:
+
+
+
+O programa lê três valores inteiros que representam os lados de um triângulo.
+O programa informa se os lados formam um triângulo e o classificam como isósceles (dois lados iguais), escaleno (três lados diferentes ou equilátero (três lados iguais).
+
+
+Obs.:
+Sabe-se que a condição para formar um triângulo é: a soma de dois lados tem que ser maior que o terceiro lado.
+
+
+
+
+
+1) Defina o esqueleto de uma classe (Delphi/Java) que resolva o problema acima.
+
+
+
+
+2) Escreva casos de teste em (DUnit/JUnit) para as seguintes situações:
+
+
+
+a) Triângulo escaleno válido
+
+b) Triângulo isósceles válido
+
+c) Triângulo equilatero válido
+
+
+d) Pelo menos 3 casos de teste para isósceles válido contendo a permutação dos mesmos valores
+
+	
+
+	- Um valor zero
+	
+	- Um valor negativo
+	
+	- A soma de 2 lados é igual ao terceiro lado, criando um caso de teste para cada permutação de valores
+	
+	- A soma de 2 lados é menor que o terceiro lado, criando um caso de teste para cada permutação de valores
+	
+	- Os três valores iguais a zero
