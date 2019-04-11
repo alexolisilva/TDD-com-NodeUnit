@@ -60,63 +60,63 @@ module.exports = testCase({
     // Teste p/verificar se os lados formam um triângulo, com valor ZERO
     "Forma um Triângulo com valor ZERO.": function(test) {
         var triangulo = VerificaTriangulo.FormaTriangulo(lado1, lado2, lado6);        
-        test.equal(triangulo, "TRUE");
+        test.equal(triangulo, "FALSE");
         test.done();
     },
 
     // Teste p/verificar se os lados formam um triângulo, com valor NEGATIVO
     "Forma um Triângulo com Valor NEGATIVO.": function(test) {
         var triangulo = VerificaTriangulo.FormaTriangulo(lado1, lado2, lado7);        
-        test.equal(triangulo, "TRUE");
+        test.equal(triangulo, "FALSE");
         test.done();
     },
 
     // Teste p/verificar se os lados formam um triângulo, com soma igual ao terceiro lado (PERMUTACAO)
     "Forma um Triângulo 01 com soma igual ao terceiro lado (PERMUTACAO).": function(test) {
         var triangulo = VerificaTriangulo.FormaTriangulo(lado1, lado2, lado8);        
-        test.equal(triangulo, "TRUE");
+        test.equal(triangulo, "FALSE");
         test.done();
     },
 
     // Teste p/verificar se os lados formam um triângulo, com soma igual ao terceiro lado (PERMUTACAO)
     "Forma um Triângulo 02 com soma igual ao terceiro lado (PERMUTACAO).": function(test) {
         var triangulo = VerificaTriangulo.FormaTriangulo(lado1, lado2, lado8);        
-        test.equal(triangulo, "TRUE");
+        test.equal(triangulo, "FALSE");
         test.done();
     },
 
     // Teste p/verificar se os lados formam um triângulo, com soma igual ao terceiro lado (PERMUTACAO)
     "Forma um Triângulo 03 com soma igual ao terceiro lado (PERMUTACAO).": function(test) {
         var triangulo = VerificaTriangulo.FormaTriangulo(lado2, lado1, lado8);        
-        test.equal(triangulo, "TRUE");
+        test.equal(triangulo, "FALSE");
         test.done();
     },
     
     // Teste p/verificar se os lados formam um triângulo, com soma menor que ao terceiro lado (PERMUTACAO)
     "Forma um Triângulo 01 com soma menor que ao terceiro lado (PERMUTACAO).": function(test) {
         var triangulo = VerificaTriangulo.FormaTriangulo(lado3, lado4, lado9);        
-        test.equal(triangulo, "TRUE");
+        test.equal(triangulo, "FALSE");
         test.done();
     },
 
     // Teste p/verificar se os lados formam um triângulo, com soma menor que ao terceiro lado (PERMUTACAO)
     "Forma um Triângulo 02 com soma menor que ao terceiro lado (PERMUTACAO).": function(test) {
         var triangulo = VerificaTriangulo.FormaTriangulo(lado9, lado3, lado5);        
-        test.equal(triangulo, "TRUE");
+        test.equal(triangulo, "FALSE");
         test.done();
     },
 
     // Teste p/verificar se os lados formam um triângulo, com soma menor que ao terceiro lado (PERMUTACAO)
     "Forma um Triângulo 03 com soma menor que ao terceiro lado (PERMUTACAO).": function(test) {
         var triangulo = VerificaTriangulo.FormaTriangulo(lado9, lado3, lado4);        
-        test.equal(triangulo, "TRUE");
+        test.equal(triangulo, "FALSE");
         test.done();
     },
 
     // Teste p/verificar se os lados formam um triângulo, com todos os lados iguais a ZERO
     "Forma um Triângulo com lados ZERO.": function(test) {
         var triangulo = VerificaTriangulo.FormaTriangulo(lado6, lado6, lado6);        
-        test.equal(triangulo, "TRUE");
+        test.equal(triangulo, "FALSE");
         test.done();
     }
 })
